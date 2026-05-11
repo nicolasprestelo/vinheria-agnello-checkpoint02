@@ -26,7 +26,7 @@ function validarNumero(mensagem) {
     return numero;
 }
 
-// Função para verificar a situação do estoque
+// Função para verificar a situação do estoque 
 function verificarEstoque(quantidadeEstoque) {
 
     if (quantidadeEstoque < 5) {
