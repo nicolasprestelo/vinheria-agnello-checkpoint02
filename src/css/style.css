@@ -81,6 +81,22 @@ main {
     padding: 20px;
 }
 
+
+main h1 {
+    grid-column: 1 / -1; /* Faz o título ocupar toda a largura do grid */
+    text-align: center;
+    color: var(--accent-gold);
+    margin-bottom: 40px;
+}
+
+main p {
+    grid-column: 1 / -1; /* Faz a descrição ocupar toda a largura do grid */
+    text-align: center;
+    color: var(--text-muted);
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
 .wine-card {
     background-color: var(--bg-card);
     padding: 25px;
